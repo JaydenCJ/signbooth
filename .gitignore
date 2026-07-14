@@ -1,0 +1,17 @@
+# build artifacts
+/signbooth
+/dist/
+*.test
+
+# coverage
+coverage.out
+coverage.html
+
+# local booth state (never commit keys, tokens, or audit logs)
+/booth/
+*.sbsig
+*.pem
+
+# editor droppings
+*.swp
+.DS_Store
